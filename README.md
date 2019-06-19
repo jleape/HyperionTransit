@@ -3,7 +3,7 @@ HyperionTransit
 
 ## Summary
 
-HyperionTransit is a web-based application for integrating and visualizing data that transit agencies commonly maintain in order to inform operational, programmatical and infrastructural interventions. It was conceived and developed by Jonathan Hoagland Leape between 2016 and 2017 in Bogotá, Colombia for Transmilenio S.A.
+HyperionTransit is a Shiny application for visualizing interactions between various types of supply and demand in order to inform interventions. It was conceived and developed by Jonathan Hoagland Leape between 2016 and 2017 in Bogotá, Colombia between contracts with the City of Bogotá.
 
 The application processes input data into the following units of analysis: stations, stops, routes, route segments, corridor segments, and origin - destination pairs. Calculated attributes of each unit of analysis are summarized in a interactive map, plots, tables and reports. Processed data can be downloaded and uploaded in order to easily compare.
 
@@ -11,7 +11,7 @@ The application processes input data into the following units of analysis: stati
 
 ### 1) Log in
 
-Write Jonathan Leape at jleape@gmail.com to request a username and password.
+Add a set of usernames and passwords in login.R
 
 ### 2) File I/O
 
@@ -39,9 +39,9 @@ In this column the user can upload raw inputs to create a new scenario.
 
 * **Emme Assignment** - txt file of standard output from Emme containing the results of a transit assignment simulation. The transit line IDs in this file must be associated with GTFS route_id in the **Route Data** file.
 
-* **GeoJSON Routes** - geojson file of routes found in the GTFS feed created using [gtfs2geojson python script](https://github.com/vipassana/geojsontools)
+* **GeoJSON Routes** - geojson file of routes found in the GTFS feed, which can be created using [gtfs2geojson python script](https://github.com/vipassana/geojsontools)
 
-* **GeoJSON Stops** - geojson file of stops found in the GTFS feed created using [gtfs2geojson python script](https://github.com/vipassana/geojsontools)
+* **GeoJSON Stops** - geojson file of stops found in the GTFS feed, which can be created using [gtfs2geojson python script](https://github.com/vipassana/geojsontools)
 
 * **Transit Demand Matrix** - csv file of transit demand between stations found in **Station Inventory**. The table must have the following columns:
 
@@ -271,5 +271,3 @@ Each working table can be viewed in the Tables tab to quickly find statistics. I
 * **Corridor Segments** - demand, capacity and saturation by segment by corridor.
 
 * **O-D Pairs** - Transit Trips, Auto Trips, Transit Travel Time, Auto Travel Time, Travel Time Ratio (ratio of transit travel time to auto travel time), Travel Time Lost (difference of Transit Travel Time and Auto Travel Time multiplied by Transit Trips)
-
-HyperionTransit is property of Jonathan Hoagland Leape, licensed to Transmilenio S.A. for unlimited internal use.
