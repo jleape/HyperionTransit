@@ -3,7 +3,7 @@ HyperionTransit
 
 ## Summary
 
-HyperionTransit is a Shiny application for visualizing interactions between various types of supply and demand in order to inform interventions. It was conceived and developed by Jonathan Hoagland Leape between 2016 and 2017 in Bogotá, Colombia between contracts with the City of Bogotá.
+HyperionTransit is a Shiny application for visualizing interactions between various types of supply and demand in order to inform interventions. It was conceived and developed by Jonathan Hoagland Leape between 2016 and 2017 between contracts with the City of Bogotá, Colombia.
 
 The application processes input data into the following units of analysis: stations, stops, routes, route segments, corridor segments, and origin - destination pairs. Calculated attributes of each unit of analysis are summarized in a interactive map, plots, tables and reports. Processed data can be downloaded and uploaded in order to easily compare.
 
