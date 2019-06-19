@@ -2,10 +2,13 @@
 data/
 inputs/
 www/stationDrawings/
+legal/
+www/*.png
 
 # misc
 tutorials/
 deployment/
+HT_Desktop/
 
 # History files
 .Rhistory
